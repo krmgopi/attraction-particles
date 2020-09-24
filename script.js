@@ -28,7 +28,7 @@ function particle(){
             // ctx.fillStyle = "rgba(255,255,10,"+this.alpha+")";
             ctx.fillStyle = colors[i+this.alpha];
             // console.log(`${colors[i]} + ${this.alpha}`);
-            // console.log('hi');
+            console.log('hi');
         }
         ctx.fillRect(this.x,this.y,this.w,this.h);
     }
